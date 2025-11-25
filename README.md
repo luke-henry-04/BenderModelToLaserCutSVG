@@ -18,9 +18,9 @@ Two simple scripts to turn a blender triangle model into an SVG laser cutter des
 - Use the guides mednu in the UV editor to confirm that there is no distortion in angle or area.
 
 ### Step 2, exporting the UV data
-- Select the scripting tab and open the file '___.py'
-- Click run
-- The script should have generated a file named 'UVMap.json' in the directory containing the current .blend file.
+- Select the scripting tab and open the file 'ExportVertexNumberedUV.py'
+- Click run while in edit mode with the whole model selected. 
+- The script should have generated a file named 'UVMap.json' in the directory with the current .blend file.
 
 ### Step 3, generating the final SVG
 - The script '___.pde' is a Processing 4 sketch. You can download the IDE at Processing.org
