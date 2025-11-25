@@ -42,28 +42,6 @@ json_data = json.dumps(outputArray)
 with open(file_path, "w+") as f:
     f.write(json_data)
     
-
-
-
-file_name = "UVMap.png"
-file_path = os.path.join(blend_dir, file_name)
-
-bpy.ops.uv.export_layout(filepath=file_path, size=(1024, 1024))
-
-# Load the image back into Blender
-img = bpy.data.images.load(filepath=file_path)
-
-# Prompt the user with the "Save As" dialog
-def save_image_as(img):
-    original_area = bpy.context.area.type
-    bpy.context.area.type = 'IMAGE_EDITOR'
-    bpy.context.space_data.image = img
-    bpy.ops.image.save_as('INVOKE_DEFAULT', copy=True)
-    bpy.context.area.type = original_area
-
-
-# Invoke the save as file dialog for the newly loaded image
-save_image_as(img)
-
 print("Export Completed!")
+
 
