@@ -27,3 +27,5 @@ Two simple scripts to turn a blender triangle model into an SVG laser cutter des
 - Place the generated `UVMap.json` file in the `/Blender_UVMap_VertexLabel_FromJSON/` directory with the script.
 - Open `Blender_UVMap_VertexLabel_FromJSON.pde` in processing and run the sketch.
 - The final SVG for laser cutting should be located in `/Blender_UVMap_VertexLabel_FromJSON/output.svg`
+  
+(Note that for models with many small triangles, you will likely need to adjust the font size for the vertex labels.)
