@@ -1,6 +1,6 @@
 # BenderModelToLaserCutSVG
 
-Two simple scripts to turn a blender triangle model into an SVG laser cutter design for irl assembly
+Two simple scripts to turn a blender triangle model into an SVG laser cutter design for irl assembly. It's best used on low poly meshes without many tiny triangles, otherwise the assembly gets difficult. 
 
 # How to Use:
 ### Step 1, generating the undistorted, tightly packed UV map
