@@ -29,3 +29,8 @@ Two simple scripts to turn a blender triangle model into an SVG laser cutter des
 - The final SVG for laser cutting should be located in `/Blender_UVMap_VertexLabel_FromJSON/output.svg`
   
 (Note that for models with many small triangles, you will likely need to adjust the font size for the vertex labels.)
+
+### Step 4, Laser-Cutting and Assembly
+- Most laser cutters allow you to separate cutting and engraving paths by color. Engrave the red text and cut the black triangles.
+- To assemble the model, arrange triangles around each vertex and glue or tape together triangles that share two vertex-numbers (an edge) in common.
+- It works best if you bond them all lightly at first, then go over each joint with a stronger bond after the model is in the correct shape.
