@@ -38,10 +38,11 @@ json_data = json.dumps(outputArray)
 
  
 
-# Write the JSON data to a file
+
 with open(file_path, "w+") as f:
     f.write(json_data)
     
 print("Export Completed!")
+
 
 
